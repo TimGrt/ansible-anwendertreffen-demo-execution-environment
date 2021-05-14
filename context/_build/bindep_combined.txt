@@ -1,0 +1,14 @@
+gcc-c++ [doc test platform:rpm]  # from collection ansible.netcommon, ansible.utils
+libyaml-devel [test platform:rpm]  # from collection ansible.netcommon
+libyaml-dev [test platform:dpkg]  # from collection ansible.netcommon
+python3-devel [test platform:rpm]  # from collection ansible.netcommon, ansible.utils
+python3 [test platform:rpm]  # from collection ansible.netcommon, ansible.utils
+python38-six [platform:centos-8 platform:rhel-8]  # from collection ansible.netcommon
+python38-lxml [platform:centos-8 platform:rhel-8]  # from collection ansible.netcommon
+gcc [compile platform:centos-8 platform:rhel-8]  # from collection ansible.netcommon
+make [compile platform:centos-8 platform:rhel-8]  # from collection ansible.netcommon
+python38-devel [compile platform:centos-8 platform:rhel-8]  # from collection ansible.netcommon
+python38-cffi [platform:centos-8 platform:rhel-8]  # from collection ansible.netcommon
+python38-cryptography [platform:centos-8 platform:rhel-8]  # from collection ansible.netcommon
+python38-pycparser [platform:centos-8 platform:rhel-8]  # from collection ansible.netcommon
+kubernetes-client [platform:fedora]  # from collection community.kubernetes
