@@ -7,5 +7,3 @@ build_arg_defaults:
 dependencies:
   galaxy: requirements.yml
   python: requirements.txt
-
-ansible_config: 'ansible.cfg'
