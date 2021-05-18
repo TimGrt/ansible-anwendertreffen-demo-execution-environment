@@ -3,8 +3,6 @@ ARG PYTHON_BUILDER_IMAGE=quay.io/ansible/python-builder:latest
 
 FROM $ANSIBLE_RUNNER_IMAGE as galaxy
 
-ADD _build/ansible.cfg ~/.ansible.cfg
-
 ARG ANSIBLE_GALAXY_CLI_COLLECTION_OPTS=
 ADD _build /build
 
