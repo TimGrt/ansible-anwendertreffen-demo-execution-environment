@@ -6,7 +6,7 @@ The playbooks can be found in a seperate repository: https://github.com/TimGrt/a
 Building and running the execution environment requires two Python packages, as well as a container-runtime. 
 I used Docker to build the execution environment container image and Podman to run the container on a sperate host.
 
-![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/timgrt/ansible-anwendertreffen-demo-ee) ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/timgrt/ansible-anwendertreffen-demo-execution-environment/main)
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/timgrt/ansible-anwendertreffen-demo-ee) ![Docker Pulls](https://img.shields.io/docker/pulls/timgrt/ansible-anwendertreffen-demo-ee) ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/timgrt/ansible-anwendertreffen-demo-execution-environment/main)
 
 ## Tags
 
