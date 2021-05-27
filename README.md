@@ -3,6 +3,7 @@
 This repository contains the files necessary to build the Ansible Execution Environment for running the Playbook used in the Live Demo from my presentation at the second "Ansible Anwendertreffen" conference.  
 The execution environment and Playbooks used in the Demo provision and configure a k3s Kubernetes cluster and deploy the Kubernetes Dashboard on top of it.   
 The playbooks can be found in a seperate repository: https://github.com/TimGrt/ansible-anwendertreffen-demo-playbooks  
+The pre-build container can be found in and pulled from my Docker Hub Repository: https://hub.docker.com/r/timgrt/ansible-anwendertreffen-demo-ee  
 Building and running the execution environment requires two Python packages, as well as a container-runtime. 
 I used Docker to build the execution environment container image and Podman to run the container on a sperate host.
 
