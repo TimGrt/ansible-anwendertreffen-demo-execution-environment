@@ -7,7 +7,7 @@ The pre-build container can be found in and pulled from my Docker Hub Repository
 Building and running the execution environment requires two Python packages, as well as a container-runtime. 
 I used Docker to build the execution environment container image and Podman to run the container on a sperate host.
 
-![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/timgrt/ansible-anwendertreffen-demo-ee) ![Docker Pulls](https://img.shields.io/docker/pulls/timgrt/ansible-anwendertreffen-demo-ee) ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/timgrt/ansible-anwendertreffen-demo-execution-environment/main)
+[![Docker Build and Publish](https://github.com/TimGrt/ansible-anwendertreffen-demo-execution-environment/actions/workflows/ci.yml/badge.svg)](https://github.com/TimGrt/ansible-anwendertreffen-demo-execution-environment/actions/workflows/ci.yml) ![Docker Pulls](https://img.shields.io/docker/pulls/timgrt/ansible-anwendertreffen-demo-ee) ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/timgrt/ansible-anwendertreffen-demo-execution-environment/main)
 
 ## Tags
 
