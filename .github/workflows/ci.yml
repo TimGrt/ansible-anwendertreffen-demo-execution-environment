@@ -20,13 +20,13 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Test building image.
-        run: docker build -t ansible-ee .
-
-      - name: Run the built image.
-        run: docker run --name test-container -d --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro ansible-ee
+        run: docker build -t ansible-ee context/
 
       - name: Verify Ansible is accessible in the built image.
-        run: docker exec --tty test-container env TERM=xterm ansible --version
+        run: docker run --rm --name test-container ansible-ee ansible --version
+
+      - name: Verify Ansible Runner is accessible in the built image.
+        run: docker run --rm --name test-container ansible-ee ansible-runner --version
 
   publish:
     name: Publish
