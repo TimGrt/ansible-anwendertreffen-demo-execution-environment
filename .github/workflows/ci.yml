@@ -46,8 +46,7 @@ jobs:
       - name: Build and push image.
         uses: docker/build-push-action@v2
         with:
-          context: ./context/
-          file: Dockerfile
+          file: context/Dockerfile
           platforms: linux/amd64
           push: true
           tags: timgrt/ansible-anwendertreffen-demo-ee:latest
